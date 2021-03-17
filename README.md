@@ -17,3 +17,12 @@ source ~/.bashrc
 
 scp -r /publish-location/* pi@raspberrypi:/home/pi/deployment-location/
 ```
+
+## Troubleshooting with 5ghz networks
+
+```bash
+sudo iw wlan0 scan
+sudo iw wlan0 scan | grep -A5 'freq: 5'
+
+sudo nano /etc/default/crda set tu US
+```
