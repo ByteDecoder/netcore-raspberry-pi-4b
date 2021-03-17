@@ -1,4 +1,4 @@
-# .Net Core && Rasperry Pi IoT
+# .Net Core && Raspberry  Pi IoT
 
 .Net Core setup and publish
 
